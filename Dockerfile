@@ -6,4 +6,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 8000
-CMD [ "nodemon", "server.js" ]
+CMD [ "node", "server.js" ]
